@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: 'ubunturegular', sans-serif;
+	font-size: 17px;
+	color: #042E6D;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+input,textarea,select {
+	font-family: 'ubunturegular', sans-serif;
+	font-weight: 500;
+}
+a{
+	color: #253858;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: 'ubunturegular';
+	font-weight: 500;
+	color: #42526E;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../font/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('../font/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('../font/ubuntu-medium-webfont.woff2') format('woff2'),
+         url('../font/ubuntu-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../font/ubuntu-light-webfont.woff2') format('woff2'),
+         url('../font/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../font/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('../font/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+::placeholder {
+  color: #C0CCDA;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: #C0CCDA;
+}
+::-ms-input-placeholder {
+  color: #C0CCDA;
+}
+#home {
+
+}
+#home section.wrapper {
+
+}
+#home header section.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1440px;
+}
+#home header {
+	height: 90px;
+	background: #042e6d;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#home header section.wrapper h1.left {
+	width: 75px;
+	height: 75px;
+}
+#home header section.wrapper h1.left a {
+	display: block;
+	width: 100%;
+	border-radius: 60px;
+}
+#home header section.wrapper h1.left a img {
+	display: block;
+	width: 100%;
+	border-radius: 60px;
+}
+#home header section.wrapper nav.middle {
+
+}
+#home header section.wrapper nav.middle ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#home header section.wrapper nav.middle ul li {
+	margin-right: 110px;
+}
+#home header section.wrapper nav.middle ul li:last-child {
+	margin-right: 0;
+}
+#home header section.wrapper nav.middle ul li a {
+	color: #fff;
+}
+#home header section.wrapper ul.user {
+	
+}
+#home header section.wrapper ul.user li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#home header section.wrapper ul.user li div.profile {
+	width: 60px;
+	height: 60px;
+	border-radius: 10px;
+}
+#home header section.wrapper ul.user li div.profile a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#home header section.wrapper ul.user li div.profile a img {
+	display: block;
+	height: 100%;
+}
+#home header section.wrapper ul.user li h2 {
+	font: 24px;
+	font-family: 'ubuntumedium';
+	color: #fff;
+	margin-left: 40px;
+}
+#home #spotlight {
+	background: url(../images/spotlight.webp) no-repeat;
+	height: 595px;
+	background-position: 834px;
+}
+#home #spotlight section.wrapper {
+
+} 
+#home #spotlight section.wrapper h1 {
+	width: 391px;
+	font-weight: 700;
+	font-size: 48px;
+	margin: 140px 590px 70px auto;
+}
+#home #spotlight section.wrapper p {
+	width: 795px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+}
+#home #spotlight section.wrapper a.button {
+	width: 253px;
+	height: 84px;
+	background: #02d783;
+	padding: 28px 89px;
+	display: block;
+	margin: 70px 705px 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
