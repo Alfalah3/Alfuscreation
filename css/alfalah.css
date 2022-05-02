@@ -115,6 +115,7 @@ br.clear {
 #home header section.wrapper h1.left {
 	width: 75px;
 	height: 75px;
+	margin-top: 8px;
 }
 #home header section.wrapper h1.left a {
 	display: block;
@@ -160,10 +161,13 @@ br.clear {
 	height: 100%;
 }
 #home header section.wrapper ul.user li h2 {
-	font: 24px;
+	font-size: 24px;
 	font-family: 'ubuntumedium';
 	color: #fff;
 	margin-left: 40px;
+}
+#home header section.wrapper a.button {
+	display: none;
 }
 #home #spotlight {
 	background: url(../images/spotlight.webp) no-repeat;
@@ -171,13 +175,19 @@ br.clear {
 	background-position: 834px;
 }
 #home #spotlight section.wrapper h1 {
-	width: 391px;
+	width: 325px;
 	font-weight: 700;
 	font-size: 48px;
 	margin: 140px 590px 70px auto;
 }
 #home #spotlight section.wrapper p {
 	width: 795px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+}
+#home #spotlight section.wrapper p.hide {
+	display: none;
 	text-align: center;
 	font-size: 20px;
 	font-weight: 500;
@@ -251,4 +261,161 @@ br.clear {
 	filter: invert(.8);
 	display: block;
 	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 1280px) {
+	#home #spotlight section.wrapper p {
+		width: 620px;
+	}
+	#home #spotlight {
+		background-position: 655px;
+	}
+	#code {
+		padding: 25px;
+	}
+	#home #spotlight section.wrapper h1 {
+		margin: 87px auto 40px 115px;
+	}
+	#home #spotlight section.wrapper p {
+		width: 520px;
+		margin: 0 auto 0 25px;
+	}
+	#home #spotlight section.wrapper a.button {
+		margin: 50px 486px 0 auto; 
+	}
+	#home #spotlight {
+		background-position-x: 515px;
+		background-position-y: 0;
+		background-size: 450px;
+	}
+	#code section.wrapper ul li:first-child div.item img.logo {
+		width: 210px;
+	}
+	#code section.wrapper ul li:last-child div.item img.logo {
+		width: 120px;
+	}
+	#code section.wrapper ul li {
+		height: 430px;
+		width: 380px;
+	}
+	#home header section.wrapper nav.middle ul li {
+		margin-right: 65px;
+	}
+}
+@media all and (max-width: 980px) {
+	#home header section.wrapper nav.middle ul li a {
+		font-size: 15px;
+	}
+	#home header section.wrapper ul.user li h2 {
+		display: none;
+	}
+	#home header section.wrapper h1.left {
+		width: 67px;
+	}
+	#home #spotlight {
+		background: none;
+		height: 385px;
+	}
+	#home #spotlight section.wrapper h1 {
+		margin: 87px auto 40px auto;
+	}
+	#home #spotlight section.wrapper p {
+		margin: 0 auto;
+	}
+	#home #spotlight section.wrapper a.button {
+		margin: 50px auto 0 auto;
+	}
+	#code section.wrapper ul {
+		flex-wrap: wrap;
+	}
+	#code section.wrapper ul li {
+		width: 100%;
+		margin-top: 50px;
+	}
+	#code section.wrapper ul li:first-child {
+		margin-top: 0;
+	}
+}
+@media all and (max-width: 760px) {
+	#home #spotlight section.wrapper p {
+		width: 380px;
+	}
+	#home header section.wrapper ul.user li div.profile a img {
+		width: 105px;
+	}
+	#home header section.wrapper h1.left {
+		display: none;
+	}
+	#home header section.wrapper nav.middle {
+		display: none;
+	}
+	#home header section.wrapper ul.user {
+		margin-top: 11px;
+	}
+	#home header section.wrapper ul.user li h2 {
+		display: block;
+	}
+	#home #spotlight {
+		padding: 50px;
+	}
+	#home #spotlight section.wrapper h1 {
+		margin: 0 auto 20px;
+	}
+	#home #spotlight section.wrapper p {
+		width: 510px;
+	}
+	#home #spotlight section.wrapper a.button {
+		margin: 20px auto 0;
+	}
+	#home header section.wrapper a.button {
+		width: 142px;
+		height: 58px;
+		background: #02d783;
+		padding: 18px 39.5px;
+		display: block;
+		margin-top: 11px;
+		border-radius: 30px;
+		text-align: center;
+		color: #fff;
+		font-size: 20px;
+	}
+}
+@media all and (max-width: 640px) {
+	#home #spotlight section.wrapper p {
+		display: none;
+	}
+	#home #spotlight section.wrapper p.hide {
+		display: block;
+		width: 310px;
+	}
+}
+@media all and (max-width: 480px) {
+	#home header section.wrapper ul.user li h2 {
+		display: none;
+	}
+	#home #spotlight section.wrapper h1 {
+		font-size: 35px;
+		width: 283px;
+	}
+	#home #spotlight section.wrapper p.hide {
+		width: 280px;
+		margin-left: -22px;
+	}
+	#code section.wrapper h1 {
+		font-size: 36px;
+		width: 292px;
+	}
+	#code section.wrapper ul li div.item h3 {
+		font-size: 32px;
+	}
+	#code section.wrapper ul li:last-child div.item h3 {
+		width: 270px;
+	}
 }
