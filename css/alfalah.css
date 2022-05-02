@@ -102,12 +102,6 @@ br.clear {
 ::-ms-input-placeholder {
   color: #C0CCDA;
 }
-#home {
-
-}
-#home section.wrapper {
-
-}
 #home header section.wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -117,8 +111,6 @@ br.clear {
 #home header {
 	height: 90px;
 	background: #042e6d;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
 }
 #home header section.wrapper h1.left {
 	width: 75px;
@@ -134,9 +126,6 @@ br.clear {
 	width: 100%;
 	border-radius: 60px;
 }
-#home header section.wrapper nav.middle {
-
-}
 #home header section.wrapper nav.middle ul {
 	display: flex;
 	align-items: center;
@@ -150,9 +139,6 @@ br.clear {
 }
 #home header section.wrapper nav.middle ul li a {
 	color: #fff;
-}
-#home header section.wrapper ul.user {
-	
 }
 #home header section.wrapper ul.user li {
 	display: flex;
@@ -184,9 +170,6 @@ br.clear {
 	height: 595px;
 	background-position: 834px;
 }
-#home #spotlight section.wrapper {
-
-} 
 #home #spotlight section.wrapper h1 {
 	width: 391px;
 	font-weight: 700;
@@ -211,4 +194,61 @@ br.clear {
 	color: #fff;
 	font-size: 20px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#code {
+	background: #f4f5f7;
+	padding: 68px 95px;
+}
+#code section.wrapper h1 {
+	width: 353px;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto;
+}
+#code section.wrapper ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+#code section.wrapper ul li {
+	background: #fff;
+	width: 485px;
+	height: 494px;
+	border-radius: 15px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#code section.wrapper ul li div.item img.logo {
+	width: 305px;
+	margin: 38px auto 55px;
+	display: block;
+}
+#code section.wrapper ul li:last-child div.item img.logo {
+	width: 155px;
+	margin-bottom: 35px;
+	margin-top: 16px;
+}
+#code section.wrapper ul li div.item h3 {
+	font-size: 36px;
+	width: 103px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 auto;
+}
+#code section.wrapper ul li:last-child div.item h3 {
+	width: 350px;
+}
+#code section.wrapper ul li div.item a {
+	display: block;
+	margin-top: 79px;
+}
+#code section.wrapper ul li:last-child div.item a {
+	margin-top: 40px;
+}
+#code section.wrapper ul li div.item a img {
+	width: 52px;
+	filter: invert(.8);
+	display: block;
+	margin: 0 auto;
 }
