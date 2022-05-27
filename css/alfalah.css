@@ -262,14 +262,6 @@ br.clear {
 	display: block;
 	margin: 0 auto;
 }
-
-
-
-
-
-
-
-
 @media all and (max-width: 1280px) {
 	#home #spotlight section.wrapper p {
 		width: 620px;
